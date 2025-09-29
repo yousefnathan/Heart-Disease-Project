@@ -1,0 +1,8 @@
+Ngrok Setup
+
+    1) Install ngrok and sign in (https://ngrok.com).
+    2) Start your Streamlit app locally:
+       streamlit run ui/app.py --server.port 8501
+    3) Expose it with ngrok:
+       ngrok http 8501
+    4) Share the generated public URL.
